@@ -1,7 +1,4 @@
-const sendMessageId = document.getElementById("sendmessageid");
-if (sendMessageId) {
-    sendMessageId.onclick = function() {
-        chrome.tabs.query({active: true,currentWindow: true}, function(tabs) {
+chrome.tabs.query({active: true,currentWindow: true}, function(tabs) {
             var tab = tabs[0];
             var url = tab.url;
             var IsHttps = true;
@@ -20,5 +17,4 @@ if (sendMessageId) {
             }
             chrome.tabs.create({"url": url})
         });
-    }
-}
+        
