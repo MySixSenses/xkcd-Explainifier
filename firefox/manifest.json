@@ -16,7 +16,7 @@
     
     "permissions" : 
     [
-        "tabs"
+        "activeTab"
     ]
 
 }
