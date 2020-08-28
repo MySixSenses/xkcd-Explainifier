@@ -3,7 +3,7 @@
     "author": "TheUltimateGuide, a Youtube channel",
     "version": "1.0",
     "manifest_version": 2,
-    "description": "A Chromium Extension to open a new tab with the explanified version of a xkcd comic",
+    "description": "A Firefox Extension to open a new tab with the explanified version of a xkcd comic",
     "icons": {
         "16": "icons/nasapod16x16.png",
         "32": "icons/nasapod32x32.png",

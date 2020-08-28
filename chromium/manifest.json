@@ -1,7 +1,7 @@
 {
     "name": "xkcd Explanifier",
     "author": "TheUltimateGuide, a Youtube channel",
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 2,
     "description": "A Chromium Extension to open a new tab with the explanified version of a xkcd comic",
     "icons": {
