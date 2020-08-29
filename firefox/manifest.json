@@ -4,7 +4,7 @@
   "name": "xkcd Explanifier",
   "version": "1.1",
   "author": "TheUltimateGuide, a Youtube channel",
-  "description": "A Chromium Extension to open a new tab with the explanified version of a xkcd comic",
+  "description": "A Firefox Extension to open a new tab with the explanified version of a xkcd comic",
 
   "icons": {
     "48": "icons/nasapod48x48.png",
