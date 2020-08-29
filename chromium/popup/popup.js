@@ -13,7 +13,7 @@ function QueryProperTab(Pin){
         } else if(url.startsWith('http://')){
             url = url.substring(7)
         }
-        url  = "explain" + url    
+        url  = "http://explain" + url  
         chrome.tabs.create({"url": url, "pinned": Pin})
     });
 }
