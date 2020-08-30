@@ -11,7 +11,11 @@ function QueryProperTab(Pin){
                 url = url.substring(8)
             }
         } else if(url.startsWith('http://')){
-            url = url.substring(7)
+            if (url.startsWith('http://m.')){
+                url = url.substring(8)
+            } else{
+                url = url.substring(7)
+            }
         }
         url  = "http://explain" + url  
         chrome.tabs.create({"url": url, "pinned": Pin})
