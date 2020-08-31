@@ -6,7 +6,8 @@ The following versions are supported with security updates. If your version is n
 
 | Version | Supported          |
 | ------- | ------------------ |
-|1.0 <=   |:white_check_mark:|
+|1.1 <=   |:white_check_mark:|
+|Most other versions|:x:|
 
 ## Reporting a Vulnerability
 
